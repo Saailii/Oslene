@@ -1,0 +1,185 @@
+<div class="product-grid-container">
+  {% if section.settings.collection.products.size > 0 %}
+
+    <div class="product-grid product-grid--{{ section.settings.columns_desktop }}-col">
+      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+
+        <div class="product-item">
+          <a href="{{ product.url }}">
+            <div class="product-item__image">
+              {% if product.featured_image %}
+                <img
+                  src="{{ product.featured_image | img_url: '300x650', crop: 'center' }}"
+                  alt="{{ product.title | escape }}"
+                  loading="lazy"
+                  width="500"
+                  height="650">
+              {% else %}
+                {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            <div class="product-item__content">
+              <h3 class="product-item__title">{{ product.title }}</h3>
+              <div class="product-item__price">
+                {{ product.price | money }}
+              </div>
+            </div>
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+  {% endif %}
+  {%- if section.settings.show_view_all and section.settings.collection.url != blank -%}
+    <div class="view-all">
+      <a href="{{ section.settings.collection.url }}" class="button">
+        Voir tout
+      </a>
+    </div>
+  {%- endif -%}
+</div>
+
+<style>
+  .product-grid-container {
+
+    margin: 0;
+    padding: 20px 0;
+
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat({{ section.settings.columns_desktop }}, 1fr);
+
+    margin: 30px 0;
+  }
+
+  .product-item {
+
+
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .product-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-item__image {
+
+    overflow: hidden;
+  }
+
+  .product-item__image img {
+
+    /*width: 100%;*/
+    border: 1px solid black;
+    object-fit: contain;
+  }
+
+  .product-item__title {
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .product-item__price {
+    margin: 0 10px 15px;
+    font-weight: bold;
+  }
+
+  .view-all {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+
+  .button:hover {
+    background: #333;
+  }
+
+  @media screen and (max-width: 749px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+
+{% schema %}
+  {
+    "name": "Product Home",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Titre de la section",
+        "default": "Nos Produits"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection à afficher"
+      },
+      {
+        "type": "range",
+        "id": "products_to_show",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "default": 4,
+        "label": "Nombre de produits à afficher"
+      },
+      {
+        "type": "select",
+        "id": "columns_desktop",
+        "options": [
+          {
+            "value": "2",
+            "label": "2 colonnes"
+          }, {
+            "value": "3",
+            "label": "3 colonnes"
+          }, {
+            "value": "4",
+            "label": "4 colonnes"
+          }
+        ],
+        "default": "4",
+        "label": "Nombre de colonnes sur desktop"
+      }, {
+        "type": "header",
+        "content": "Paramètres d'affichage"
+      }, {
+        "type": "checkbox",
+        "id": "show_view_all",
+        "default": true,
+        "label": "Afficher le bouton 'Voir tout'"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Grille de produits",
+        "category": "Produits"
+      }
+    ]
+  }
+{% endschema %}
