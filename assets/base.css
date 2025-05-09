@@ -11270,7 +11270,7 @@ clickable-discount[data-error="false"] + .clickable-discount__error {
   justify-content: space-between;
   align-items: center;
   column-gap: 1rem;
-  padding-block: 3rem;
+  padding: 0;
 }
 .sticky-atc__button {
   flex-shrink: 0;
@@ -11374,7 +11374,7 @@ secondary-variant-select {
     width: 20rem;
   }
   .sticky-atc__image img {
-    height: 9rem;
+    height: 12rem;
   }
   .sticky-atc__price .price,
   .sticky-atc__price .price-item--regular {
