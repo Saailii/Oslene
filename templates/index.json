@@ -33,7 +33,7 @@
         "products_to_show": 4,
         "columns_mobile": "2",
         "columns_desktop": "4",
-        "show_view_all": true
+        "show_view_all": false
       }
     },
     "6aa09428-a417-429d-9159-a4e8afd49590": {
