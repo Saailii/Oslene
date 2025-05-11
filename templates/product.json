@@ -1,1 +1,569 @@
-{"sections":{"main":{"type":"main-product","blocks":{"custom_liquid_NXp3dW":{"type":"custom_liquid","settings":{"custom_liquid":"<style>\n  .trustpilot-score {\n    text-align: left; \/* Align the content to the left *\/\n    margin-top: 10px; \/* Add some space above the score *\/\n  }\n\n  .trustpilot-score p {\n    display: inline; \/* Display the text inline *\/\n    vertical-align: middle; \/* Align the content vertically *\/\n    margin: 0; \/* Remove any default margins *\/\n    font-weight: bold; \/* Increase font weight *\/\n  }\n\n  .trustpilot-score img {\n    max-width: 100px; \/* Set maximum width to 100px *\/\n    height: auto; \/* Maintain aspect ratio *\/\n    margin-left: 10px; \/* Add some space between the images *\/\n    vertical-align: middle; \/* Align the images vertically *\/\n  }\n<\/style>\n\n<div class=\"trustpilot-score\">\n  <p>Excellent<\/p>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/0702\/9155\/files\/Trustpilot-4.5-Stars.png?v=1727226686\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/0702\/9155\/files\/Trustpilot_logo.png?v=1727226779\">\n<\/div>"}},"title":{"type":"title","settings":{"text_size":"h1","title_alignment":"left","uppercase_title":false,"margin_top":0,"margin_bottom":15}},"a6eb81db-40e4-43e0-972f-32db010a4a56":{"type":"rating_stars","disabled":true,"settings":{"rating":4.4,"star_color":"#ffcc00","bg_stars_style":"full","bg_star_color":"#ececec","label":"(xxxx Reviews)","size":16,"alignment":"flex-start","scroll_id":"","margin_top":15,"margin_bottom":9}},"price":{"type":"price","settings":{"layout":"price_first","price_color":"accent-1","compare_price_color":"accent-2","displayed_badge":"sale","icon_scale":140,"custom_badge_text":"[icon_1] SPECIAL OFFER","icon_1":"redeem","filled_icon_1":false,"icon_2":"check_circle","filled_icon_2":false,"margin_top":9,"margin_bottom":15}},"custom_liquid_3mVzLY":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"features-container\">\n  <div class=\"feature\">\n    <span class=\"feature-icon\">🚚<\/span>\n    <div class=\"feature-text\">\n      <h3 class=\"feature-title\">Livraison gratuite<\/h3>\n      <p class=\"feature-description\">Livraison suivie gratuite sur toutes les commandes<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"feature\">\n    <span class=\"feature-icon\">✅<\/span>\n    <div class=\"feature-text\">\n      <h3 class=\"feature-title\">Garantie de satisfaction<\/h3>\n      <p class=\"feature-description\">Notre garantie de remboursement de 30 jours<\/p>\n    <\/div>\n  <div class=\"feature\">\n    <span class=\"\"><\/span>\n      <h3 class=\"feature-title\"><\/h3>\n      <p class=\"feature-description\"><\/p>\n    <\/div>\n  <\/div>\n  <div class=\"feature\">\n    <span class=\"feature-icon\"><\/span>\n    <div class=\"feature-text\">\n      <h3 class=\"feature-title\"><\/h3>\n      <p class=\"feature-description\"><\/p>\n    <\/div>\n  <\/div>\n<\/div>\n \n<style>\n.features-container {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 1rem;\n  position: relative;\n  max-width: 600px;\n  margin: auto;\n}\n \n.feature {\n  display: flex;\n  align-items: center;\n}\n \n.feature-icon {\n  font-size: 24px; \/* Icon size *\/\n  margin-right: 12px; \/* Space between icon and text *\/\n}\n \n.feature-text {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n \n.feature-title {\n  font-size: 12px; \/* Title size *\/\n  margin: 0;\n}\n \n.feature-description {\n  font-size: 12px; \/* Description size *\/\n  margin: 0;\n}\n \n.divider {\n  background-color: #ccc; \/* Line color *\/\n  position: absolute;\n}\n \n.horizontal-divider {\n  top: 50%;\n  left: 0;\n  width: 100%;\n  height: 1px; \/* Line thickness *\/\n  transform: translateY(-50%);\n}\n \n.vertical-divider {\n  top: 0;\n  bottom: 0;\n  left: 50%;\n  width: 1px; \/* Line thickness *\/\n  transform: translateX(-50%);\n}\n \n@media (max-width: 600px) {\n  .features-container {\n    grid-template-columns: 1fr;\n  }\n \n  .horizontal-divider, .vertical-divider {\n    display: none;\n  }\n}\n<\/style>"}},"5fcc0428-e768-4cb7-bea3-eb0274198dd1":{"type":"variant_picker","settings":{"picker_types":"pills, dropdown, dropdown","custom_labels":"[name] - [selected]","skip_unavailable":false,"swatches_size":"medium","swatches_custom_colors":"disabled","swatches_custom_colors_list":"#000000, #6D388B, #0000FF, #FFCC00","full_width_dropdowns":false,"breaks_style":"normal","breaks_headline":"BUNDLE & SAVE","breaks_display_selected_indicator":true,"breaks_border_radius":10,"breaks_border_width":2,"breaks_color_scheme":"accent-1","breaks_badges":"[empty], Most popular, [empty]","breaks_badge_style":"1","breaks_badge_color":"accent-1","breaks_displayed_images":"variant_images","breaks_custom_images":"","breaks_image_width":70,"breaks_space_images":true,"breaks_vertical_images_position":"top","breaks_vertical_prices_layout":"vertical","breaks_labels":"[name], [name], [name]","breaks_benefits":"[empty], Free Shipping, Free Shipping","breaks_benefit_position":"top","breaks_benefit_style":"outlined","breaks_benefit_color":"accent-1","breaks_captions":"Variant 1 caption, Variant 2 caption, Variant 3 caption","breaks_price_texts":"[price], [price], [price]","breaks_compare_price_texts":"[compare_price], [compare_price], [compare_price]","margin_top":15,"margin_bottom":15}},"04ba004e-2f54-4936-8b1c-8bcadf6573f6":{"type":"quantity_selector","settings":{"full_width_classic":false,"atc_append":"none","atc_append_heights":"stretch-quantity","enable_quantity_discounts":false,"style":"normal","headline":"BUNDLE & SAVE","preselected":"option_1","display_selected_indicator":true,"border_radius":10,"border_width":2,"color_scheme":"accent-1","enable_variant_selectors":true,"enable_variant_selectors_on_quantity_of_1":false,"update_prices":false,"skip_unavailable":false,"full_width_pickers":false,"hide_pickers_overlay":true,"pickers_label":"","image_width":70,"space_images":true,"vertical_images_position":"top","vertical_prices_layout":"vertical","option_1_quantity":1,"option_1_badge":"","option_1_badge_style":"1","option_1_badge_color":"accent-1","option_1_label":"Buy [quantity]","option_1_benefit":"","option_1_benefit_position":"top","option_1_benefit_style":"outlined","option_1_benefit_color":"accent-1","option_1_caption":"You save [amount_saved]","option_1_percentage_off_text":"0","option_1_fixed_amount_off":"0","option_1_price_text":"[price]","option_1_compare_price":"compare_price","option_1_compare_price_text":"[compare_price]","option_2_quantity":2,"option_2_badge":"","option_2_badge_style":"1","option_2_badge_color":"accent-1","option_2_label":"Buy [quantity]","option_2_benefit":"","option_2_benefit_position":"top","option_2_benefit_style":"outlined","option_2_benefit_color":"accent-1","option_2_caption":"You save [amount_saved]","option_2_percentage_off_text":"0","option_2_fixed_amount_off":"0","option_2_price_text":"[price]","option_2_compare_price":"compare_price","option_2_compare_price_text":"[compare_price]","option_3_quantity":3,"option_3_badge":"","option_3_badge_style":"1","option_3_badge_color":"accent-1","option_3_label":"Buy [quantity]","option_3_benefit":"","option_3_benefit_position":"top","option_3_benefit_style":"outlined","option_3_benefit_color":"accent-1","option_3_caption":"You save [amount_saved]","option_3_percentage_off_text":"0","option_3_fixed_amount_off":"0","option_3_price_text":"[price]","option_3_compare_price":"compare_price","option_3_compare_price_text":"[compare_price]","option_4_quantity":4,"option_4_badge":"","option_4_badge_style":"1","option_4_badge_color":"accent-1","option_4_label":"Buy [quantity]","option_4_benefit":"","option_4_benefit_position":"top","option_4_benefit_style":"outlined","option_4_benefit_color":"accent-1","option_4_caption":"You save [amount_saved]","option_4_percentage_off_text":"0","option_4_fixed_amount_off":"0","option_4_price_text":"[price]","option_4_compare_price":"compare_price","option_4_compare_price_text":"[compare_price]","margin_top":15,"margin_bottom":15}},"estimated_shipping_wY3Ewe":{"type":"estimated_shipping","settings":{"icon":"local_shipping","filled_icon":true,"icon_size":"medium","icon_alignment":"middle","message":"<p>L'obtenir entre <strong>[start_date]<\/strong> et <strong>[end_date]<\/strong>.<\/p>","min_shipping_days":7,"max_shipping_days":9,"date_format":"day_mm_dd","days_labels":"Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche","months_labels":"Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre.","margin_top":24,"margin_bottom":24}},"e0a0b690-50df-4ca4-acfd-ce2980696cce":{"type":"shipping_checkpoints","disabled":true,"settings":{"icon_1":"add_shopping_cart","filled_icon_1":false,"top_text_1":"<strong>[start_date]<\/strong>","bottom_text_1":"Commandé","min_days_1":0,"max_days_1":0,"icon_2":"local_shipping","filled_icon_2":false,"top_text_2":"<strong>[start_date] - [end_date]<\/strong>","bottom_text_2":"Prêt pour la commande","min_days_2":1,"max_days_2":2,"icon_3":"redeem","filled_icon_3":false,"top_text_3":"<strong>[start_date] - [end_date]<\/strong>","bottom_text_3":"Livré","min_days_3":7,"max_days_3":9,"icon_4":"","filled_icon_4":false,"top_text_4":"","bottom_text_4":"","date_format":"mm_dd","days_labels":"Mon, Tue, Wed, Thu, Fri, Sat, Sun","months_labels":"Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec","color_scheme":"inverse","margin_top":24,"margin_bottom":24}},"custom_liquid_Pzc4wt":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"viewer-count\">\n<div class=\"viewer-count-fixed\">\n<svg width=\"15\" height=\"15\" aria-hidden=\"true\" class=\"dot\">\n<circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"><\/circle>\n<circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"><\/circle>\n<\/svg>\n<span id=\"viewerCount\">98<\/span>\n<\/div>\n<span class=\"viewer-text\">les personnes consultent actuellement ce produit<\/span>\n<\/div>\n\n<script>\nfunction updateViewerCount() {\ndocument.getElementById(\"viewerCount\").innerText = Math.floor(Math.random() * (99 - 20 + 1)) + 20;\n}\nupdateViewerCount();\nsetInterval(updateViewerCount, 15000);\n<\/script>\n\n<style>\n.viewer-count {\nfont-size: 14px;\ncolor: #333;\nline-height: 1.4;\nwidth: 100%;\nmax-width: 100%;\ndisplay: flex;\nflex-wrap: wrap;\nalign-items: center;\n}\n.viewer-count-fixed {\ndisplay: flex;\nalign-items: center;\nwhite-space: nowrap;\nmargin-right: 8px;\n}\n.dot {\nmargin-right: 5px;\nflex-shrink: 0;\n}\n#viewerCount {\nmargin-right: 5px;\n}\n.viewer-text {\nflex: 1;\nmin-width: 0;\n}\n<\/style>"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"skip_cart":false,"uppercase_text":true,"icon_scale":120,"icon_spacing":10,"display_price":false,"enable_custom_color":true,"custom_color":"#53af01","enable_secondary_btn":false,"secondary_btn_label":"Buy It Now","secondary_btn_enable_custom_color":false,"secondary_btn_custom_color":"#dd1d1d","margin_top":24,"margin_bottom":24}},"payment_badges_xbeynY":{"type":"payment_badges","settings":{"enabled_payment_types":"","margin_top":15,"margin_bottom":15}},"e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5":{"type":"sticky_atc","settings":{"function":"add_to_cart","display_when":"after_scroll","button_label":"AJOUTER AU PANIER","enable_custom_btn_color":true,"custom_btn_color":"#53af01","color_scheme":"background-1","star_color":"#ffcc00","stars_label":"(xxxx Reviews)","picker_type":"combined","desktop_show_image":true,"desktop_show_title":true,"desktop_rating_stars":false,"desktop_show_price":true,"desktop_show_sale_badge":true,"desktop_variant_picker":true,"desktop_full_button_width":false,"desktop_show_price_in_button":false,"desktop_transparent_bg":false,"mobile_show_image":false,"mobile_show_title":false,"mobile_rating_stars":false,"mobile_show_price":true,"mobile_show_sale_badge":true,"mobile_variant_picker":false,"mobile_full_button_width":false,"mobile_show_price_in_button":false,"mobile_transparent_bg":false}},"custom_liquid_BGak3G":{"type":"custom_liquid","settings":{"custom_liquid":"<div id='ss-reviews'><\/div>"}},"de158e68-5d0d-4819-a625-e2dabdff87d1":{"type":"collapsible_tab","settings":{"heading":"Livraison gratuite","heading_size":"medium","icon":"local_shipping","filled_icon":false,"collapse_icon":"carret","display_top_border":true,"open":false,"content":"<p>Livraison gratuite dès 25 €<\/p>","page":"","margin_top":24,"margin_bottom":0}},"collapsible_tab_LBad9n":{"type":"collapsible_tab","settings":{"heading":"Retour sans frais","heading_size":"medium","icon":"lock_clock","filled_icon":false,"collapse_icon":"carret","display_top_border":true,"open":false,"content":"<p>Garantie de remboursement à 100<br\/>7 jours après réception de l'achat.<\/p>","page":"","margin_top":24,"margin_bottom":0}},"description":{"type":"description","settings":{"margin_top":24,"margin_bottom":24}}},"block_order":["custom_liquid_NXp3dW","title","a6eb81db-40e4-43e0-972f-32db010a4a56","price","custom_liquid_3mVzLY","5fcc0428-e768-4cb7-bea3-eb0274198dd1","04ba004e-2f54-4936-8b1c-8bcadf6573f6","estimated_shipping_wY3Ewe","e0a0b690-50df-4ca4-acfd-ce2980696cce","custom_liquid_Pzc4wt","buy_buttons","payment_badges_xbeynY","e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5","custom_liquid_BGak3G","de158e68-5d0d-4819-a625-e2dabdff87d1","collapsible_tab_LBad9n","description"],"settings":{"display_id":false,"enable_sticky_info":true,"display_variant_image_first":false,"disable_prepend":true,"hide_variants":false,"variant_image_filtering":"none","image_zoom":"none","thumbnails_ratio":"square","arrows_color_scheme":"inverse","transparent_arrows":false,"dots_color_scheme":"inverse","video_player":"play_btn","enable_video_looping":false,"autoplay_videos_pause_btn":false,"video_sound_btn":false,"video_timeline":false,"play_btn_color_scheme":"accent-1","sound_btn_color_scheme":"inverse","timeline_color":"accent-1","media_size":"medium","media_position":"left","gallery_layout":"thumbnail_slider","desktop_thumbnails_position":"bottom","desktop_thumbnails_count":5,"desktop_vertical_thumbnails_width":16,"desktop_vertical_thumbnails_hide_arrows":false,"constrain_to_viewport":true,"media_fit":"contain","desktop_arrows_position":"hidden","mobile_media_corner_radius":12,"mobile_spacing_pixels":0,"mobile_arrows_position":"sides","mobile_pagination":"dots_overlay","mobile_thumbnails_position":"hidden","mobile_thumbnails_count":5,"mobile_vertical_thumbnails_width":22,"mobile_vertical_thumbnails_hide_arrows":true,"mobile_scroll_padding_percentage":0,"mobile_scroll_padding_pixels":14,"enable_mobile_outher_spacing":false,"mobile_slides_container_width":100,"mobile_slides_inner_width":100,"trust_badge_position":"top-right","trust_badge_size":"medium","mobile_padding_top":0,"mobile_padding_bottom":16,"desktop_padding_top":36,"desktop_padding_bottom":36}},"related-products":{"type":"related-products","disabled":true,"settings":{"display_id":false,"title":"You may also like","title_highlight_color":"#6d388b","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","padding_top":36,"padding_bottom":24}},"ss_faq_9_C9LWDM":{"type":"ss-faq-9","blocks":{"text_fxQGGJ":{"type":"text","settings":{"text":"<p><strong>FAQ<\/strong><\/p>","text_custom":false,"text_font":"josefin_sans_n4","text_size":18,"text_size_mobile":16,"text_height":130,"text_mt":20,"text_mt_mobile":20,"text_align":"left","text_align_mobile":"center","text_color":"#757575"}},"heading_tLUWGF":{"type":"heading","settings":{"heading":"<h2>QUESTIONS FRÉQUEMMENT POSÉES<\/h2>","heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":48,"heading_size_mobile":30,"heading_height":130,"heading_mt":0,"heading_mt_mobile":0,"heading_align":"left","heading_align_mobile":"center","heading_color":"#000000"}},"item_WX78wF":{"type":"item","settings":{"question":"Y a-t-il une garantie ?","answer":"<p>Oui ! Nous croyons que nous fabriquons et vendons des produits de très haute qualité, c’est pourquoi nous offrons une garantie de 90 jours sur tous nos produits.<\/p>"}},"item_zzjq7A":{"type":"item","settings":{"question":"Dois-je payer des frais supplémentaires ?","answer":"<p>Non, le montant annoncé est le montant final. Le client ne reçoit aucun frais supplémentaire.<\/p>"}},"item_Tzxt4d":{"type":"item","settings":{"question":"Le site est-il sécurisé ?","answer":"<p>Tout notre site utilise une technologie de cryptage de pointe, garantissant une sécurité totale et la confidentialité de vos données.<\/p>"}},"item_VrCxDb":{"type":"item","settings":{"question":"Les produits sont-ils originaux ?","answer":"<p>Nos produits ont les mêmes senteurs que les fragrances officielles, avec seulement un emballage différent. Ils sont également d’excellente qualité.<\/p>"}}},"block_order":["text_fxQGGJ","heading_tLUWGF","item_WX78wF","item_zzjq7A","item_Tzxt4d","item_VrCxDb"],"settings":{"body_gap":30,"body_gap_mobile":20,"body_radius":40,"faq_position":"right","faq_position_mobile":"bottom","item_padding_vertical":20,"item_padding_vertical_mobile":20,"item_padding_horizontal":20,"item_padding_horizontal_mobile":20,"item_mt":10,"item_radius":10,"item_border_thickness":0,"item_shadow":true,"question_custom":false,"question_font":"josefin_sans_n4","question_size":18,"question_size_mobile":14,"question_height":130,"arrow_size":24,"arrow_size_mobile":24,"arrow_border_thickness":0,"answer_custom":false,"answer_font":"josefin_sans_n4","answer_size":16,"answer_size_mobile":12,"answer_height":170,"answer_padding_top":16,"item_bg_color":"#FFFFFF","item_border_color":"#000000","question_color":"#000000","arrow_color":"#757575","arrow_border_color":"#6c584c","answer_color":"#757575","background_color":"#F0F3F4","background_gradient":"","border_color":"#000000","margin_top":16,"margin_bottom":16,"margin_horizontal":4,"margin_horizontal_mobile":1.5,"padding_top":60,"padding_bottom":60,"padding_horizontal":6,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":120,"border_thickness":0}},"featured_collection_qdXTB8":{"type":"featured-collection","settings":{"display_id":false,"visibility":"always-display","title":"<strong>Vous allez aussi aimer<\/strong>","title_highlight_color":"#000000","heading_size":"h1","description":"","show_description":false,"description_style":"body","color_scheme":"background-1","collection":"femme","products_to_show":4,"stretch_cards":false,"show_view_all":false,"view_all_style":"solid","cards_color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"badges":"regular","show_vendor":false,"show_rating":false,"enable_quick_add":false,"swatches_option_name":"","swatches_position":"top","swatches_desktop_size":36,"swatches_mobile_size":24,"type":"slide","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":3,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"2","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff"}},"1629746450643786911":{"type":"areviews-section","settings":{"hide_areviews_title_rating":false,"areviews_theme_font":"inherit","areviews_stars_colors":"#f3c621","areviews_write_reviews_botton_color":"#373737"}},"ss_product_reviews_94AtnW":{"type":"ss-product-reviews","blocks":{"review_VcmraP":{"type":"review","settings":{"image":"shopify:\/\/shop_images\/1611526460119.jpg","hide_image":false,"author":"Lori","stars_count":5,"text":"Je suis très satisfait de cet achat ! C’est de haute qualité et ça sent bon. Hautement recommandé pour son efficacité et sa qualité."}},"review_Tfyzw6":{"type":"review","settings":{"image":"shopify:\/\/shop_images\/1694689792163.jpg","hide_image":false,"author":"Jillian","stars_count":5,"text":"J’ai adoré cet achat, la livraison a été effectuée en 3 jours et le produit est de très bonne qualité."}}},"block_order":["review_VcmraP","review_Tfyzw6"],"settings":{"reviews_position":"above_buy","reviews_meta":"","reviews_radius":0,"review_padding_vertical":8,"review_padding_horizontal":8,"review_radius":8,"review_border_thickness":0,"image_width":60,"image_radius":8,"image_border_thickness":0,"image_ratio":"square","stars_size":14,"author_custom":false,"author_font":"josefin_sans_n4","author_size":14,"author_size_mobile":14,"author_height":130,"text_custom":false,"text_font":"josefin_sans_n4","text_size":12,"text_size_mobile":12,"text_height":130,"text_mt":4,"arrow_size":24,"arrow_size_mobile":24,"arrow_icon_size":16,"arrow_icon_size_mobile":16,"arrow_border_thickness":0,"arrow_show_desktop":true,"arrow_show_mobile":true,"review_bg_color":"#fff2d9","review_border_color":"#000000","image_border_color":"#000000","author_color":"#000000","text_color":"#000000","arrow_color":"#000000","arrow_hover_color":"#000000","arrow_bg_color":"#F3F3F3","arrow_bg_hover_color":"#DDDDDD","arrow_border_color":"#F3F3F3","arrow_border_hover_color":"#DDDDDD","stars_color":"#e8c84f","background_color":"#F3F3F3","background_gradient":"","border_color":"#000000","margin_top":10,"margin_bottom":10,"padding_top":0,"padding_bottom":0,"padding_horizontal":0,"padding_horizontal_mobile":0,"border_thickness":0,"lazy":true}},"b321ab88-2b59-4dba-bade-54885c874ca5":{"type":"section-divider","settings":{"visibility":"always-display","shape":"waves_3","flip_horizontal":false,"flip_vertical":false,"shape_color":"accent-1","custom_shape_color":"#dd1d1d","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}},"colors_changer_AbpXH9":{"type":"colors-changer","settings":{"colors_solid_button_labels":"#fdfbf7","colors_accent_1":"#000000","gradient_accent_1":"","colors_accent_2":"#dd1d1d","gradient_accent_2":"","colors_text":"#000000","colors_outline_button_labels":"#2e2a39","colors_background_1":"#ffffff","gradient_background_1":"","colors_background_2":"#f3f3f3","gradient_background_2":""}}},"order":["main","related-products","ss_faq_9_C9LWDM","featured_collection_qdXTB8","1629746450643786911","ss_product_reviews_94AtnW","b321ab88-2b59-4dba-bade-54885c874ca5","colors_changer_AbpXH9"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_NXp3dW": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>\n  .trustpilot-score {\n    text-align: left; /* Align the content to the left */\n    margin-top: 10px; /* Add some space above the score */\n  }\n\n  .trustpilot-score p {\n    display: inline; /* Display the text inline */\n    vertical-align: middle; /* Align the content vertically */\n    margin: 0; /* Remove any default margins */\n    font-weight: bold; /* Increase font weight */\n  }\n\n  .trustpilot-score img {\n    max-width: 100px; /* Set maximum width to 100px */\n    height: auto; /* Maintain aspect ratio */\n    margin-left: 10px; /* Add some space between the images */\n    vertical-align: middle; /* Align the images vertically */\n  }\n</style>\n\n<div class=\"trustpilot-score\">\n  <p>Excellent</p>\n  <img src=\"https://cdn.shopify.com/s/files/1/0671/0702/9155/files/Trustpilot-4.5-Stars.png?v=1727226686\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0671/0702/9155/files/Trustpilot_logo.png?v=1727226779\">\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h2",
+            "title_alignment": "left",
+            "uppercase_title": true,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "a6eb81db-40e4-43e0-972f-32db010a4a56": {
+          "type": "rating_stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.4,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "(xxxx Reviews)",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 9
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "accent-2",
+            "displayed_badge": "none",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "custom_liquid_3mVzLY": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"features-container\">\n  <div class=\"feature\">\n    <span class=\"feature-icon\">🚚</span>\n    <div class=\"feature-text\">\n      <h3 class=\"feature-title\">Livraison gratuite</h3>\n      <p class=\"feature-description\">Livraison suivie gratuite sur toutes les commandes</p>\n    </div>\n  </div>\n  <div class=\"feature\">\n    <span class=\"feature-icon\">✅</span>\n    <div class=\"feature-text\">\n      <h3 class=\"feature-title\">Garantie de satisfaction</h3>\n      <p class=\"feature-description\">Notre garantie de remboursement de 30 jours</p>\n    </div>\n  <div class=\"feature\">\n    <span class=\"\"></span>\n      <h3 class=\"feature-title\"></h3>\n      <p class=\"feature-description\"></p>\n    </div>\n  </div>\n  <div class=\"feature\">\n    <span class=\"feature-icon\"></span>\n    <div class=\"feature-text\">\n      <h3 class=\"feature-title\"></h3>\n      <p class=\"feature-description\"></p>\n    </div>\n  </div>\n</div>\n \n<style>\n.features-container {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 1rem;\n  position: relative;\n  max-width: 600px;\n  margin: auto;\n}\n \n.feature {\n  display: flex;\n  align-items: center;\n}\n \n.feature-icon {\n  font-size: 24px; /* Icon size */\n  margin-right: 12px; /* Space between icon and text */\n}\n \n.feature-text {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n \n.feature-title {\n  font-size: 12px; /* Title size */\n  margin: 0;\n}\n \n.feature-description {\n  font-size: 12px; /* Description size */\n  margin: 0;\n}\n \n.divider {\n  background-color: #ccc; /* Line color */\n  position: absolute;\n}\n \n.horizontal-divider {\n  top: 50%;\n  left: 0;\n  width: 100%;\n  height: 1px; /* Line thickness */\n  transform: translateY(-50%);\n}\n \n.vertical-divider {\n  top: 0;\n  bottom: 0;\n  left: 50%;\n  width: 1px; /* Line thickness */\n  transform: translateX(-50%);\n}\n \n@media (max-width: 600px) {\n  .features-container {\n    grid-template-columns: 1fr;\n  }\n \n  .horizontal-divider, .vertical-divider {\n    display: none;\n  }\n}\n</style>"
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 0,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "estimated_shipping_wY3Ewe": {
+          "type": "estimated_shipping",
+          "settings": {
+            "icon": "local_shipping",
+            "filled_icon": true,
+            "icon_size": "medium",
+            "icon_alignment": "middle",
+            "message": "<p>L'obtenir entre <strong>[start_date]</strong> et <strong>[end_date]</strong>.</p>",
+            "min_shipping_days": 7,
+            "max_shipping_days": 9,
+            "date_format": "day_mm_dd",
+            "days_labels": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche",
+            "months_labels": "Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre.",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
+          "type": "shipping_checkpoints",
+          "disabled": true,
+          "settings": {
+            "icon_1": "add_shopping_cart",
+            "filled_icon_1": false,
+            "top_text_1": "<strong>[start_date]</strong>",
+            "bottom_text_1": "Commandé",
+            "min_days_1": 0,
+            "max_days_1": 0,
+            "icon_2": "local_shipping",
+            "filled_icon_2": false,
+            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_2": "Prêt pour la commande",
+            "min_days_2": 1,
+            "max_days_2": 2,
+            "icon_3": "redeem",
+            "filled_icon_3": false,
+            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_3": "Livré",
+            "min_days_3": 7,
+            "max_days_3": 9,
+            "icon_4": "",
+            "filled_icon_4": false,
+            "top_text_4": "",
+            "bottom_text_4": "",
+            "date_format": "mm_dd",
+            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
+            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+            "color_scheme": "inverse",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "custom_liquid_Pzc4wt": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"viewer-count\">\n<div class=\"viewer-count-fixed\">\n<svg width=\"15\" height=\"15\" aria-hidden=\"true\" class=\"dot\">\n<circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"></circle>\n<circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"></circle>\n</svg>\n<span id=\"viewerCount\">98</span>\n</div>\n<span class=\"viewer-text\">les personnes consultent actuellement ce produit</span>\n</div>\n\n<script>\nfunction updateViewerCount() {\ndocument.getElementById(\"viewerCount\").innerText = Math.floor(Math.random() * (99 - 20 + 1)) + 20;\n}\nupdateViewerCount();\nsetInterval(updateViewerCount, 15000);\n</script>\n\n<style>\n.viewer-count {\nfont-size: 14px;\ncolor: #333;\nline-height: 1.4;\nwidth: 100%;\nmax-width: 100%;\ndisplay: flex;\nflex-wrap: wrap;\nalign-items: center;\n}\n.viewer-count-fixed {\ndisplay: flex;\nalign-items: center;\nwhite-space: nowrap;\nmargin-right: 8px;\n}\n.dot {\nmargin-right: 5px;\nflex-shrink: 0;\n}\n#viewerCount {\nmargin-right: 5px;\n}\n.viewer-text {\nflex: 1;\nmin-width: 0;\n}\n</style>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#000000",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_xbeynY": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "AJOUTER AU PANIER",
+            "enable_custom_btn_color": true,
+            "custom_btn_color": "#000000",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": false,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": false,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": true,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "custom_liquid_BGak3G": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div id='ss-reviews'></div>"
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison gratuite",
+            "heading_size": "medium",
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Livraison gratuite dès 25 €</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_LBad9n": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Retour sans frais",
+            "heading_size": "medium",
+            "icon": "lock_clock",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Garantie de remboursement à 100<br/>7 jours après réception de l'achat.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_NXp3dW",
+        "title",
+        "a6eb81db-40e4-43e0-972f-32db010a4a56",
+        "price",
+        "custom_liquid_3mVzLY",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "estimated_shipping_wY3Ewe",
+        "e0a0b690-50df-4ca4-acfd-ce2980696cce",
+        "custom_liquid_Pzc4wt",
+        "buy_buttons",
+        "payment_badges_xbeynY",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "custom_liquid_BGak3G",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_LBad9n",
+        "description"
+      ],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 12,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 14,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "1629746450643786911": {
+      "type": "areviews-section",
+      "settings": {
+        "hide_areviews_title_rating": false,
+        "areviews_theme_font": "inherit",
+        "areviews_stars_colors": "#f3c621",
+        "areviews_write_reviews_botton_color": "#373737"
+      }
+    },
+    "ss_product_reviews_94AtnW": {
+      "type": "ss-product-reviews",
+      "blocks": {
+        "review_VcmraP": {
+          "type": "review",
+          "settings": {
+            "hide_image": false,
+            "author": "Lori",
+            "stars_count": 5,
+            "text": "Je suis très satisfait de cet achat ! C’est de haute qualité et ça sent bon. Hautement recommandé pour son efficacité et sa qualité."
+          }
+        },
+        "review_Tfyzw6": {
+          "type": "review",
+          "settings": {
+            "hide_image": false,
+            "author": "Jillian",
+            "stars_count": 5,
+            "text": "J’ai adoré cet achat, la livraison a été effectuée en 3 jours et le produit est de très bonne qualité."
+          }
+        }
+      },
+      "block_order": [
+        "review_VcmraP",
+        "review_Tfyzw6"
+      ],
+      "settings": {
+        "reviews_position": "above_buy",
+        "reviews_meta": "",
+        "reviews_radius": 0,
+        "review_padding_vertical": 8,
+        "review_padding_horizontal": 8,
+        "review_radius": 8,
+        "review_border_thickness": 0,
+        "image_width": 60,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "stars_size": 14,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 4,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "review_bg_color": "#fff2d9",
+        "review_border_color": "#000000",
+        "image_border_color": "#000000",
+        "author_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#f3f3f3",
+        "arrow_bg_hover_color": "#dddddd",
+        "arrow_border_color": "#f3f3f3",
+        "arrow_border_hover_color": "#dddddd",
+        "stars_color": "#e8c84f",
+        "background_color": "#f3f3f3",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 10,
+        "margin_bottom": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "colors_changer_AbpXH9": {
+      "type": "colors-changer",
+      "settings": {
+        "colors_solid_button_labels": "#fdfbf7",
+        "colors_accent_1": "#000000",
+        "gradient_accent_1": "",
+        "colors_accent_2": "#dd1d1d",
+        "gradient_accent_2": "",
+        "colors_text": "#000000",
+        "colors_outline_button_labels": "#2e2a39",
+        "colors_background_1": "#ffffff",
+        "gradient_background_1": "",
+        "colors_background_2": "#f3f3f3",
+        "gradient_background_2": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "1629746450643786911",
+    "ss_product_reviews_94AtnW",
+    "colors_changer_AbpXH9"
+  ]
+}

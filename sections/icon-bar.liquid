@@ -11,6 +11,14 @@
     }
   }
 
+  .multicolumn-card__title {
+    font-size: {{ section.settings.font-size__title }}px;
+  }
+
+  .multicolumn-card__text {
+    font-size: {{ section.settings.font-size__text }}px;
+  }
+
   .color-scheme-{{ section.id }}
   .color-custom {
     --color-background: {{ section.settings.custom_colors_background.red }}, 
@@ -169,10 +177,10 @@
                   {% unless block.settings.title == blank and block.settings.text == blank %}
                     <div class="multicolumn-card__info">
                       {%- if block.settings.title != blank -%}
-                        <h3>{{ block.settings.title | escape }}</h3>
+                        <h3 class="multicolumn-card__title">{{ block.settings.title | escape }}</h3>
                       {%- endif -%}
                       {%- if block.settings.text != blank -%}
-                        <div class="rte">{{ block.settings.text }}</div>
+                        <div class="rte multicolumn-card__text">{{ block.settings.text }}</div>
                       {%- endif -%}
                     </div>
                   {% endunless %}
@@ -259,7 +267,20 @@
         ],
         "default": "h1",
         "label": "Heading size"
-      }, {
+      },
+      {
+        "type": "number",
+        "id": "font-size__title",
+        "label": "Heading font size",
+        "default": 13
+      },
+      {
+        "type": "number",
+        "id": "font-size__text",
+        "label": "Content font size",
+        "default": 11
+      },
+       {
         "type": "richtext",
         "id": "text",
         "label": "Text"
