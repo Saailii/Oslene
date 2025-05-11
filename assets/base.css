@@ -3040,7 +3040,7 @@ li:last-child .announcement-bar__separator::before {
 .header__icons {
   display: flex;
   grid-area: icons;
-  justify-self: start;
+  justify-self: center;
 }
 .header__icon span,
 .header__icon:not(.header__icon--summary) {
