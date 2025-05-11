@@ -1,3 +1,11 @@
+
+{% style  %} 
+.product-item__title {
+  font-size: {{ section.settings.font_size__title }}px;
+  
+}
+{% endstyle %}
+
 <div class="product-grid-container">
   <h1 class="product-section__title">
     {{ section.settings.title }}
@@ -161,7 +169,7 @@
       {
         "type": "number",
         "id": "font_size__title",
-        "default": 24,
+        "default": 13,
         "label": "Taille de police du titre"
       },
       {
