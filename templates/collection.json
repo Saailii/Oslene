@@ -1,1 +1,160 @@
-{"sections":{"main-collection-banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"main-collection-product-grid":{"type":"main-collection-product-grid","custom_css":[],"settings":{"products_per_page":8,"columns_desktop":4,"stretch_cards":false,"image_ratio":"adapt","show_secondary_image":true,"badges":"regular","show_vendor":false,"show_rating":false,"enable_quick_add":false,"swatches_option_name":"","swatches_position":"top","swatches_desktop_size":36,"swatches_mobile_size":24,"enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":0,"padding_bottom":36}},"colors_changer_pQzNF9":{"type":"colors-changer","settings":{"colors_solid_button_labels":"#FDFBF7","colors_accent_1":"#000000","gradient_accent_1":"","colors_accent_2":"#dd1d1d","gradient_accent_2":"","colors_text":"#2E2A39","colors_outline_button_labels":"#2E2A39","colors_background_1":"#FFFFFF","gradient_background_1":"","colors_background_2":"#F3F3F3","gradient_background_2":""}},"icon_bar_JgXYdY":{"type":"icon-bar","blocks":{"column_VzjRnW":{"type":"column","settings":{"icon":"local_shipping","filled_icon":false,"title":"Livraison gratuite","text":"<p>Livraison gratuite dans toute la France<\/p>"}},"column_hr9BUp":{"type":"column","settings":{"icon":"support_agent","filled_icon":false,"title":"Soutien à la clientèle","text":"<p>Efficacité et fiabilité garanties.<\/p>"}},"column_QajDde":{"type":"column","settings":{"icon":"lock","filled_icon":false,"title":"Achats en toute sécurité","text":"<p>Environnement 100% sûr<\/p>"}},"column_Ydd4BE":{"type":"column","settings":{"icon":"stars","filled_icon":false,"title":"PREMIER ACHAT","text":"<p>Utilisez le coupon <strong>\"15OFF\"<\/strong><\/p>"}}},"block_order":["column_VzjRnW","column_hr9BUp","column_QajDde","column_Ydd4BE"],"settings":{"display_id":false,"visibility":"always-display","title":"","title_highlight_color":"#6D388B","heading_size":"h1","text":"","color_scheme":"background-1","icon_layout":"vertical","icon_size":"medium","icon_color":"accent-1","cards_color_scheme":"background-1","type":"slide","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":4,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"1","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_cards_colors_background":"#F3F3F3","custom_cards_gradient_background":"","custom_cards_colors_text":"#2E2A39"}}},"order":["main-collection-banner","main-collection-product-grid","colors_changer_pQzNF9","icon_bar_JgXYdY"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "colors_changer_pQzNF9": {
+      "type": "colors-changer",
+      "settings": {
+        "colors_solid_button_labels": "#fdfbf7",
+        "colors_accent_1": "#000000",
+        "gradient_accent_1": "",
+        "colors_accent_2": "#dd1d1d",
+        "gradient_accent_2": "",
+        "colors_text": "#2e2a39",
+        "colors_outline_button_labels": "#2e2a39",
+        "colors_background_1": "#ffffff",
+        "gradient_background_1": "",
+        "colors_background_2": "#f3f3f3",
+        "gradient_background_2": ""
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "columns_desktop": 4,
+        "stretch_cards": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "swatches_option_name": "",
+        "swatches_position": "top",
+        "swatches_desktop_size": 36,
+        "swatches_mobile_size": 24,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "icon_bar_JgXYdY": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_VzjRnW": {
+          "type": "column",
+          "settings": {
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "title": "Livraison gratuite",
+            "text": "<p>Livraison gratuite dans toute la France</p>"
+          }
+        },
+        "column_hr9BUp": {
+          "type": "column",
+          "settings": {
+            "icon": "support_agent",
+            "filled_icon": false,
+            "title": "Soutien à la clientèle",
+            "text": "<p>Efficacité et fiabilité garanties.</p>"
+          }
+        },
+        "column_QajDde": {
+          "type": "column",
+          "settings": {
+            "icon": "lock",
+            "filled_icon": false,
+            "title": "Achats en toute sécurité",
+            "text": "<p>Environnement 100% sûr</p>"
+          }
+        },
+        "column_Ydd4BE": {
+          "type": "column",
+          "settings": {
+            "icon": "stars",
+            "filled_icon": false,
+            "title": "PREMIER ACHAT",
+            "text": "<p>Utilisez le coupon <strong>\"15OFF\"</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_VzjRnW",
+        "column_hr9BUp",
+        "column_QajDde",
+        "column_Ydd4BE"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "font-size__title": 13,
+        "font-size__text": 11,
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "colors_changer_pQzNF9",
+    "main-collection-product-grid",
+    "icon_bar_JgXYdY"
+  ]
+}
