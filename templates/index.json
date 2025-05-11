@@ -28,7 +28,7 @@
       "type": "product-home",
       "settings": {
         "title": "Nos produits",
-        "font_size__title": 24,
+        "font_size__title": 14,
         "collection": "frontpage",
         "products_to_show": 4,
         "columns_mobile": "2",
@@ -88,6 +88,8 @@
         "title": "",
         "title_highlight_color": "#6d388b",
         "heading_size": "h2",
+        "font-size__title": 13,
+        "font-size__text": 11,
         "text": "",
         "color_scheme": "background-1",
         "icon_layout": "vertical",
