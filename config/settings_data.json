@@ -277,7 +277,7 @@
             "type": "countdown_timer",
             "settings": {
               "timer_text": "<strong>Panier réservé à [timer]</strong>",
-              "timer_duration": 300,
+              "timer_duration": 1200,
               "font_size": "1.4",
               "color_scheme": "background-1",
               "margin_top": 0,
