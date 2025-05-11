@@ -82,7 +82,7 @@
             "breaks_style": "normal",
             "breaks_headline": "BUNDLE & SAVE",
             "breaks_display_selected_indicator": true,
-            "breaks_border_radius": 10,
+            "breaks_border_radius": 0,
             "breaks_border_width": 2,
             "breaks_color_scheme": "accent-1",
             "breaks_badges": "[empty], Most popular, [empty]",
