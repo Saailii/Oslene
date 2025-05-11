@@ -1,752 +1,257 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "cfca4268-6358-426c-98ab-d292aeef11e5": {
-            "type": "slideshow",
-            "blocks": {
-                "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
-                    "type": "slide",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/Prancheta_3_1.png",
-                        "mobile_image": "shopify:\/\/shop_images\/Prancheta_1_1.png",
-                        "image_overlay_opacity": 0,
-                        "heading": "",
-                        "title_highlight_color": "#6d388b",
-                        "heading_size": "h1",
-                        "subheading": "",
-                        "button_label": "",
-                        "link": "",
-                        "button_style_secondary": false,
-                        "atc_button_label": "",
-                        "atc_product": "",
-                        "atc_skip_cart": false,
-                        "box_align": "middle-center",
-                        "show_text_box": false,
-                        "text_alignment": "center",
-                        "color_scheme": "background-1",
-                        "transparent_container_color": "white",
-                        "text_alignment_mobile": "center",
-                        "custom_colors_background": "#ffffff",
-                        "custom_gradient_background": "",
-                        "custom_colors_text": "#2e2a39",
-                        "custom_colors_solid_button_background": "#dd1d1d",
-                        "custom_colors_solid_button_text": "#ffffff",
-                        "custom_colors_outline_button": "#dd1d1d"
-                    }
-                }
-            },
-            "block_order": [
-                "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1"
-            ],
-            "settings": {
-                "visibility": "always-display",
-                "layout": "full_bleed",
-                "slide_height": "medium",
-                "slider_visual": "dots",
-                "desktop_pagination_position": "over",
-                "auto_rotate": false,
-                "change_slides_speed": 5,
-                "show_text_below": false,
-                "mobile_pagination_position": "under",
-                "accessibility_info": "Slideshow about our brand"
-            }
-        },
-        "collection_list_YKb6FX": {
-            "type": "collection-list",
-            "blocks": {
-                "featured_collection_NBPGPg": {
-                    "type": "featured_collection",
-                    "settings": {
-                        "collection": "best-sellers",
-                        "custom_image": "shopify:\/\/shop_images\/BEST_SELLERS_fcec7cf7-3109-4dbf-b745-ad33ccbfca47.png",
-                        "custom_title": ""
-                    }
-                },
-                "featured_collection_j7mgYN": {
-                    "type": "featured_collection",
-                    "settings": {
-                        "collection": "nouveautes-femme",
-                        "custom_image": "shopify:\/\/shop_images\/Nouveautes_femme_615d6ff3-fdb5-474b-b4f9-c2e9b26d2326.png",
-                        "custom_title": ""
-                    }
-                },
-                "featured_collection_GpEmQ7": {
-                    "type": "featured_collection",
-                    "settings": {
-                        "collection": "parfum-homme",
-                        "custom_image": "shopify:\/\/shop_images\/Nouveautes_homme-1.png",
-                        "custom_title": ""
-                    }
-                },
-                "featured_collection_ngYcgT": {
-                    "type": "featured_collection",
-                    "settings": {
-                        "collection": "nouveautes-homme",
-                        "custom_image": "shopify:\/\/shop_images\/Nouveautes_homme_cf92c284-f181-4dc1-99e9-6012ce434bda.png",
-                        "custom_title": ""
-                    }
-                },
-                "featured_collection_qLQyyN": {
-                    "type": "featured_collection",
-                    "settings": {
-                        "collection": "femme",
-                        "custom_image": "shopify:\/\/shop_images\/Coffret_628c33f9-9ac2-4789-99b3-d8e40539dead.png",
-                        "custom_title": ""
-                    }
-                }
-            },
-            "block_order": [
-                "featured_collection_NBPGPg",
-                "featured_collection_j7mgYN",
-                "featured_collection_GpEmQ7",
-                "featured_collection_ngYcgT",
-                "featured_collection_qLQyyN"
-            ],
-            "settings": {
-                "display_id": false,
-                "visibility": "always-display",
-                "title": "<strong>Nos collections<\/strong>",
-                "title_highlight_color": "#000000",
-                "heading_size": "h1",
-                "color_scheme": "background-1",
-                "image_ratio": "square",
-                "show_view_all": false,
-                "custon_styling": false,
-                "card_style": "standard",
-                "cards_color_scheme": "background-1",
-                "card_text_alignment": "left",
-                "cards_corner_radius": 10,
-                "card_title_limited_lines": "unlimited",
-                "card_title_position": "over-bottom",
-                "cards_title_overlay_color": "#000000",
-                "cards_title_overlay_opacity": 40,
-                "cards_title_over_color": "#ffffff",
-                "cards_desktop_title_size": 24,
-                "cards_mobile_title_size": 20,
-                "cards_show_arrow": true,
-                "cards_cta_label": "",
-                "cards_cta_style": "secondary",
-                "cards_cta_full_width": false,
-                "cards_cta_color": "#6d388b",
-                "cards_desktop_cta_size": 16,
-                "cards_mobile_cta_size": 14,
-                "cards_cta_height": 220,
-                "cards_cta_padding": 200,
-                "cards_cta_top_margin": 100,
-                "type": "slide",
-                "autoplay": false,
-                "autoplay_speed": 5,
-                "arrows_color_scheme": "inverse",
-                "transparent_arrows": true,
-                "dots_color_scheme": "inverse",
-                "desktop_page_width": "normal",
-                "columns_desktop": 5,
-                "desktop_spacing": 40,
-                "slider_desktop": false,
-                "per_move_desktop": 1,
-                "desktop_side_padding": 0,
-                "desktop_padding_calc": true,
-                "desktop_adaptive_height": false,
-                "desktop_dots_position": "under",
-                "desktop_arrows_position": "sides",
-                "mobile_full_page": false,
-                "columns_mobile_int": 2,
-                "mobile_spacing": 15,
-                "slider_mobile": true,
-                "enable_mobile_preview": false,
-                "mobile_adaptive_height": false,
-                "mobile_dots_position": "under",
-                "mobile_arrows_position": "under",
-                "padding_top": 36,
-                "padding_bottom": 36,
-                "custom_colors_background": "#ffffff",
-                "custom_gradient_background": "",
-                "custom_colors_text": "#2e2a39"
-            }
-        },
-        "featured_collection_UNQPPb": {
-            "type": "featured-collection",
-            "settings": {
-                "display_id": false,
-                "visibility": "always-display",
-                "title": "PARFUMS POUR FEMMES",
-                "title_highlight_color": "#6d388b",
-                "heading_size": "h1",
-                "description": "<p>Brillez avec sophistication : Découvrez notre éblouissante collection de parfums !<\/p>",
-                "show_description": false,
-                "description_style": "body",
-                "color_scheme": "background-1",
-                "collection": "femme",
-                "products_to_show": 4,
-                "stretch_cards": true,
-                "show_view_all": true,
-                "view_all_style": "solid",
-                "cards_color_scheme": "background-1",
-                "image_ratio": "adapt",
-                "show_secondary_image": false,
-                "badges": "regular",
-                "show_vendor": false,
-                "show_rating": false,
-                "enable_quick_add": false,
-                "swatches_option_name": "",
-                "swatches_position": "top",
-                "swatches_desktop_size": 36,
-                "swatches_mobile_size": 24,
-                "type": "slide",
-                "autoplay": false,
-                "autoplay_speed": 5,
-                "arrows_color_scheme": "inverse",
-                "transparent_arrows": true,
-                "dots_color_scheme": "inverse",
-                "desktop_full_page": false,
-                "columns_desktop": 4,
-                "slider_desktop": false,
-                "per_move_desktop": 1,
-                "desktop_spacing": 40,
-                "desktop_side_padding": 0,
-                "desktop_padding_calc": true,
-                "desktop_adaptive_height": false,
-                "desktop_dots_position": "under",
-                "desktop_arrows_position": "sides",
-                "columns_mobile": "2",
-                "slider_mobile": true,
-                "enable_mobile_preview": true,
-                "mobile_adaptive_height": false,
-                "mobile_dots_position": "under",
-                "mobile_arrows_position": "under",
-                "padding_top": 36,
-                "padding_bottom": 36,
-                "custom_colors_background": "#ffffff",
-                "custom_gradient_background": "",
-                "custom_colors_text": "#2e2a39",
-                "custom_colors_solid_button_background": "#dd1d1d",
-                "custom_colors_solid_button_text": "#ffffff"
-            }
-        },
-        "ss_testimonial_16_RxNwYE": {
-            "type": "ss-testimonial-16",
-            "blocks": {
-                "item_4fqMVh": {
-                    "type": "item",
-                    "settings": {
-                        "stars_count": 5,
-                        "heading": "Suivi de commande impeccable…",
-                        "text": "On vous demande si vous voulez poursuivre votre achat malgré les ruptures de stock ou si vous voulez annuler votre...",
-                        "author_date": "Cathrine"
-                    }
-                },
-                "item_PJpMBc": {
-                    "type": "item",
-                    "settings": {
-                        "stars_count": 5,
-                        "heading": "Je suis enchantée de ma commande !",
-                        "text": "Je suis enchantée de ma commande !! J'ai commandé le 17\/02 et j'ai reçu ma commande le 23\/02... C'est la...",
-                        "author_date": "Bouch C."
-                    }
-                },
-                "item_Bcw97f": {
-                    "type": "item",
-                    "settings": {
-                        "stars_count": 5,
-                        "heading": "Cliente depuis des années",
-                        "text": "Cliente depuis des années, je n'ai jamais eu de problème, jamais.",
-                        "author_date": "Joe Na."
-                    }
-                },
-                "item_AaUbeK": {
-                    "type": "item",
-                    "settings": {
-                        "stars_count": 5,
-                        "heading": "Cliente depuis quelques années ,je n…",
-                        "text": "Cliente depuis quelques années ,je n ai jamais eu de problèmes . J ai été remboursé d un parfum absent...",
-                        "author_date": "Rony Y."
-                    }
-                },
-                "item_UFk3Ty": {
-                    "type": "item",
-                    "settings": {
-                        "stars_count": 5,
-                        "heading": "Moi je commande sur leur site et je …",
-                        "text": "Moi je commande sur leur site et je n'ai jamais eu de problèmes pour ma part",
-                        "author_date": "Anna S."
-                    }
-                },
-                "item_wVVYU6": {
-                    "type": "item",
-                    "settings": {
-                        "stars_count": 5,
-                        "heading": "Super site de parfums !",
-                        "text": "Super site de parfums de grandes marques à très bas prix ! Cela fait des années que je commande sur...",
-                        "author_date": "Louis"
-                    }
-                }
-            },
-            "block_order": [
-                "item_4fqMVh",
-                "item_PJpMBc",
-                "item_Bcw97f",
-                "item_AaUbeK",
-                "item_UFk3Ty",
-                "item_wVVYU6"
-            ],
-            "settings": {
-                "content_align": "center",
-                "content_align_mobile": "center",
-                "heading": "Ce que nos clients disent de nous !",
-                "heading_custom": false,
-                "heading_font": "josefin_sans_n4",
-                "heading_size": 40,
-                "heading_size_mobile": 24,
-                "heading_height": 130,
-                "rating_text": "Excellent",
-                "rating_text_custom": false,
-                "rating_text_font": "josefin_sans_n4",
-                "rating_text_size": 24,
-                "rating_text_size_mobile": 20,
-                "rating_text_height": 130,
-                "rating_text_mt": 16,
-                "rating_text_mt_mobile": 16,
-                "rating": 4.7,
-                "rating_hide": false,
-                "rating_text_hide": false,
-                "stars_count": 5,
-                "stars_size": 28,
-                "stars_size_mobile": 24,
-                "text": "<p>Basé sur<strong> 1067 <\/strong>avis.<\/p>",
-                "text_custom": false,
-                "text_font": "josefin_sans_n4",
-                "text_size": 20,
-                "text_size_mobile": 16,
-                "text_height": 130,
-                "text_mt": 16,
-                "text_mt_mobile": 16,
-                "scrolling_velocity": 80,
-                "scrolling_velocity_mobile": 100,
-                "reverse_direction": false,
-                "pause_hover": true,
-                "scrolling_mt": 36,
-                "scrolling_mt_mobile": 36,
-                "scrolling_gap": 20,
-                "scrolling_gap_mobile": 20,
-                "card_width": 360,
-                "card_width_mobile": 280,
-                "card_padding_vertical": 36,
-                "card_padding_vertical_mobile": 28,
-                "card_padding_horizontal": 40,
-                "card_padding_horizontal_mobile": 24,
-                "card_radius": 16,
-                "card_border_thickness": 0,
-                "card_shadow_style": "2",
-                "card_content_align": "center",
-                "card_content_align_mobile": "center",
-                "card_height": false,
-                "card_heading_custom": false,
-                "card_heading_font": "josefin_sans_n4",
-                "card_heading_size": 24,
-                "card_heading_size_mobile": 20,
-                "card_heading_height": 130,
-                "card_heading_mt": 16,
-                "card_heading_mt_mobile": 16,
-                "card_text_custom": false,
-                "card_text_font": "josefin_sans_n4",
-                "card_text_size": 14,
-                "card_text_size_mobile": 14,
-                "card_text_height": 150,
-                "card_text_mt": 16,
-                "card_text_mt_mobile": 16,
-                "card_text_more": "",
-                "card_text_less": "",
-                "card_count_words": 60,
-                "author_image_size": 56,
-                "author_image_size_mobile": 40,
-                "author_image_position": "inline_text",
-                "card_author_date_text_custom": false,
-                "card_author_date_text_font": "josefin_sans_n4",
-                "card_author_date_text_size": 16,
-                "card_author_date_text_size_mobile": 16,
-                "card_author_date_text_height": 130,
-                "card_author_date_text_mt": 16,
-                "card_author_date_text_mt_mobile": 16,
-                "button": "View All",
-                "button_url": "",
-                "button_custom": false,
-                "button_font": "josefin_sans_n4",
-                "button_size": 16,
-                "button_size_mobile": 14,
-                "button_height": 100,
-                "button_align": "center",
-                "button_align_mobile": "center",
-                "button_mt": 32,
-                "button_mt_mobile": 28,
-                "button_padding_vertical": 16,
-                "button_padding_vertical_mobile": 16,
-                "button_padding_horizontal": 20,
-                "button_padding_horizontal_mobile": 20,
-                "button_radius": 8,
-                "button_border_thickness": 1,
-                "button_style": "outline",
-                "button_color": "#ffffff",
-                "button_hover_color": "#000000",
-                "button_bg_color": "#000000",
-                "button_bg_hover_color": "#ffffff",
-                "button_border_color": "#000000",
-                "button_border_hover_color": "#000000",
-                "card_bg_color": "#ffffff",
-                "card_border_color": "#000000",
-                "card_heading_color": "#000000",
-                "card_text_color": "#000000",
-                "card_author_date_text_color": "#000000",
-                "view_color": "#000000",
-                "heading_color": "#000000",
-                "rating_text_color": "#000000",
-                "stars_bg_color": "#00b67a",
-                "stars_color": "#ffffff",
-                "text_color": "#000000",
-                "background_color": "#ffffff",
-                "background_gradient": "linear-gradient(180deg, rgba(206, 239, 199, 1), rgba(255, 255, 255, 1) 100%)",
-                "border_color": "#000000",
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "padding_top": 60,
-                "padding_bottom": 60,
-                "padding_horizontal": 5,
-                "padding_horizontal_mobile": 1.5,
-                "full_width": true,
-                "content_width": 120,
-                "border_thickness": 0,
-                "lazy": true
-            }
-        },
-        "featured_collection_6EAet7": {
-            "type": "featured-collection",
-            "settings": {
-                "display_id": false,
-                "visibility": "always-display",
-                "title": "PARFUMS POUR HOMMES",
-                "title_highlight_color": "#6D388B",
-                "heading_size": "h1",
-                "description": "<p><strong>Style et élégance dans chaque détail : Découvrez la collection de parfums qui va vous enchanter !<\/strong><\/p>",
-                "show_description": false,
-                "description_style": "body",
-                "color_scheme": "background-1",
-                "collection": "parfum-homme",
-                "products_to_show": 4,
-                "stretch_cards": false,
-                "show_view_all": true,
-                "view_all_style": "solid",
-                "cards_color_scheme": "background-1",
-                "image_ratio": "adapt",
-                "show_secondary_image": false,
-                "badges": "regular",
-                "show_vendor": false,
-                "show_rating": false,
-                "enable_quick_add": false,
-                "swatches_option_name": "",
-                "swatches_position": "top",
-                "swatches_desktop_size": 36,
-                "swatches_mobile_size": 24,
-                "type": "slide",
-                "autoplay": false,
-                "autoplay_speed": 5,
-                "arrows_color_scheme": "inverse",
-                "transparent_arrows": true,
-                "dots_color_scheme": "inverse",
-                "desktop_full_page": false,
-                "columns_desktop": 4,
-                "slider_desktop": false,
-                "per_move_desktop": 1,
-                "desktop_spacing": 40,
-                "desktop_side_padding": 0,
-                "desktop_padding_calc": true,
-                "desktop_adaptive_height": false,
-                "desktop_dots_position": "under",
-                "desktop_arrows_position": "sides",
-                "columns_mobile": "2",
-                "slider_mobile": true,
-                "enable_mobile_preview": false,
-                "mobile_adaptive_height": false,
-                "mobile_dots_position": "under",
-                "mobile_arrows_position": "under",
-                "padding_top": 36,
-                "padding_bottom": 36,
-                "custom_colors_background": "#FFFFFF",
-                "custom_gradient_background": "",
-                "custom_colors_text": "#2E2A39",
-                "custom_colors_solid_button_background": "#dd1d1d",
-                "custom_colors_solid_button_text": "#ffffff"
-            }
-        },
-        "collage_faPc87": {
-            "type": "collage",
-            "blocks": {
-                "image_mCUG4x": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/top-meilleurs-parfums-femme_3_570x.progressive_4ae0d3db-5617-40b0-aa91-61db09f42d09.webp"
-                    }
-                },
-                "image_nMKrYy": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/top-meilleurs-parfums-femme_2_570x.progressive_9e9563fe-cd63-47be-bc93-d051842447c9.webp"
-                    }
-                },
-                "image_nfVCf7": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/promo-coffrets-fete-meres-1068x601.jpg"
-                    }
-                }
-            },
-            "block_order": [
-                "image_mCUG4x",
-                "image_nMKrYy",
-                "image_nfVCf7"
-            ],
-            "settings": {
-                "display_id": false,
-                "visibility": "always-display",
-                "title": "Multimedia collage",
-                "title_highlight_color": "#6D388B",
-                "heading_size": "h1",
-                "desktop_layout": "left",
-                "mobile_layout": "column",
-                "card_styles": "product-card-wrapper",
-                "color_scheme": "background-1",
-                "padding_top": 36,
-                "padding_bottom": 36,
-                "custom_colors_background": "#FFFFFF",
-                "custom_gradient_background": "",
-                "custom_colors_text": "#2E2A39"
-            }
-        },
-        "6aa09428-a417-429d-9159-a4e8afd49590": {
-            "type": "icon-bar",
-            "blocks": {
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1": {
-                    "type": "column",
-                    "settings": {
-                        "icon": "local_shipping",
-                        "filled_icon": false,
-                        "title": "Livraison gratuite",
-                        "text": "<p>Livraison gratuite dans toute la France<\/p>"
-                    }
-                },
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2": {
-                    "type": "column",
-                    "settings": {
-                        "icon": "support_agent",
-                        "filled_icon": false,
-                        "title": "Soutien à la clientèle",
-                        "text": "<p>Efficacité et fiabilité garanties.<\/p>"
-                    }
-                },
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4": {
-                    "type": "column",
-                    "settings": {
-                        "icon": "lock",
-                        "filled_icon": false,
-                        "title": "Achats en toute sécurité",
-                        "text": "<p>Environnement 100% sûr<\/p>"
-                    }
-                },
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3": {
-                    "type": "column",
-                    "settings": {
-                        "icon": "stars",
-                        "filled_icon": false,
-                        "title": "PREMIER ACHAT",
-                        "text": "<p>Utilisez le coupon <strong>\"15OFF\"<\/strong><\/p>"
-                    }
-                }
-            },
-            "block_order": [
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1",
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2",
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4",
-                "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3"
-            ],
-            "settings": {
-                "display_id": false,
-                "visibility": "always-display",
-                "title": "",
-                "title_highlight_color": "#6d388b",
-                "heading_size": "h1",
-                "text": "",
-                "color_scheme": "background-1",
-                "icon_layout": "vertical",
-                "icon_size": "medium",
-                "icon_color": "accent-1",
-                "cards_color_scheme": "background-1",
-                "type": "slide",
-                "autoplay": false,
-                "autoplay_speed": 5,
-                "arrows_color_scheme": "inverse",
-                "transparent_arrows": true,
-                "dots_color_scheme": "inverse",
-                "desktop_full_page": false,
-                "columns_desktop": 4,
-                "slider_desktop": false,
-                "per_move_desktop": 1,
-                "desktop_spacing": 40,
-                "desktop_side_padding": 0,
-                "desktop_padding_calc": true,
-                "desktop_adaptive_height": false,
-                "desktop_dots_position": "under",
-                "desktop_arrows_position": "sides",
-                "columns_mobile": "1",
-                "slider_mobile": true,
-                "enable_mobile_preview": false,
-                "mobile_adaptive_height": false,
-                "mobile_dots_position": "under",
-                "mobile_arrows_position": "under",
-                "padding_top": 36,
-                "padding_bottom": 36,
-                "custom_colors_background": "#ffffff",
-                "custom_gradient_background": "",
-                "custom_colors_text": "#2e2a39",
-                "custom_cards_colors_background": "#f3f3f3",
-                "custom_cards_gradient_background": "",
-                "custom_cards_colors_text": "#2e2a39"
-            }
-        },
-        "d2d3417b-e92f-428c-b221-5bceffb552be": {
-            "type": "comparison-table",
-            "blocks": {
-                "row_frqit4": {
-                    "type": "row",
-                    "settings": {
-                        "benefit": "<strong>Benefit<\/strong>",
-                        "us": true,
-                        "others": false,
-                        "others_2": false,
-                        "others_3": false
-                    }
-                },
-                "row_a9Qa8J": {
-                    "type": "row",
-                    "settings": {
-                        "benefit": "<strong>Benefit<\/strong>",
-                        "us": true,
-                        "others": false,
-                        "others_2": false,
-                        "others_3": false
-                    }
-                },
-                "row_NAEbjV": {
-                    "type": "row",
-                    "settings": {
-                        "benefit": "<strong>Benefit<\/strong>",
-                        "us": true,
-                        "others": false,
-                        "others_2": false,
-                        "others_3": false
-                    }
-                }
-            },
-            "block_order": [
-                "row_frqit4",
-                "row_a9Qa8J",
-                "row_NAEbjV"
-            ],
-            "disabled": true,
-            "settings": {
-                "display_id": false,
-                "visibility": "always-display",
-                "title": "Comparison table",
-                "title_highlight_color": "#6d388b",
-                "heading_size": "h1",
-                "text": "<p>Talk about how and why is your brand better than the others.<\/p>",
-                "button_label": "",
-                "link": "",
-                "button_style_secondary": false,
-                "atc_button_label": "",
-                "atc_product": "",
-                "atc_skip_cart": false,
-                "desktop_alignment": "center",
-                "mobile_alignment": "center",
-                "color_scheme": "background-1",
-                "layout": "table_second",
-                "style": "centered",
-                "corner_radius": 20,
-                "number_of_competitors": 1,
-                "us_label": "[shop_name]",
-                "us_label_size": 18,
-                "logo_width": 90,
-                "mobile_logo_width": 60,
-                "others_label": "Others",
-                "others_label_size": 18,
-                "others_logo_width": 90,
-                "others_mobile_logo_width": 60,
-                "others_2_label": "Competitor 2",
-                "others_2_label_size": 18,
-                "others_2_logo_width": 90,
-                "others_2_mobile_logo_width": 60,
-                "others_3_label": "Competitor 3",
-                "others_3_label_size": 18,
-                "others_3_logo_width": 90,
-                "others_3_mobile_logo_width": 60,
-                "checkmark_style": "regular",
-                "checkmark_color": "#ffffff",
-                "checkmark_bg_color": "#53af01",
-                "x_style": "regular",
-                "x_color": "#121212",
-                "x_bg_color": "#dbdbdb",
-                "opposite_icon_colors": "original",
-                "highlighted_color_scheme": "accent-1",
-                "highlighted_separator_opacity": 0,
-                "highlighted_overlay_opacity": 0,
-                "other_cells_color_scheme": "background-1",
-                "regular_separator_opacity": 10,
-                "regular_overlay_opacity": 0,
-                "minimalistic_border_opacity": 16,
-                "padding_top": 36,
-                "padding_bottom": 36,
-                "custom_colors_background": "#ffffff",
-                "custom_gradient_background": "",
-                "custom_colors_text": "#2e2a39",
-                "custom_colors_solid_button_background": "#dd1d1d",
-                "custom_colors_solid_button_text": "#ffffff",
-                "custom_colors_outline_button": "#dd1d1d",
-                "custom_colors_highlighted_background": "#2e2a39",
-                "custom_colors_highlighted_text": "#ffffff",
-                "custom_colors_others_background": "#ffffff",
-                "custom_colors_others_text": "#2e2a39"
-            }
-        },
-        "colors_changer_A4yj9g": {
-            "type": "colors-changer",
-            "settings": {
-                "colors_solid_button_labels": "#fdfbf7",
-                "colors_accent_1": "#000000",
-                "gradient_accent_1": "",
-                "colors_accent_2": "#dd1d1d",
-                "gradient_accent_2": "",
-                "colors_text": "#2e2a39",
-                "colors_outline_button_labels": "#2e2a39",
-                "colors_background_1": "#ffffff",
-                "gradient_background_1": "",
-                "colors_background_2": "#f3f3f3",
-                "gradient_background_2": ""
-            }
-        },
-        "product_home_": {
-            "type": "product-home",
-            "settings": {
-                "title": "Nos produits",
-                "products": []
-            }
-        }
+  "sections": {
+    "cfca4268-6358-426c-98ab-d292aeef11e5": {
+      "type": "slideshow",
+      "settings": {
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
+      }
     },
-    "order": [
-        "cfca4268-6358-426c-98ab-d292aeef11e5",
-        "product_home_",
-        "collection_list_YKb6FX",
-        "featured_collection_UNQPPb",
-        "ss_testimonial_16_RxNwYE",
-        "featured_collection_6EAet7",
-        "collage_faPc87",
-        "6aa09428-a417-429d-9159-a4e8afd49590",
-        "d2d3417b-e92f-428c-b221-5bceffb552be",
-        "colors_changer_A4yj9g"
-    ]
+    "product_home_": {
+      "type": "product-home",
+      "settings": {
+        "title": "Nos produits",
+        "font_size__title": 24,
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_mobile": "2",
+        "columns_desktop": "4",
+        "show_view_all": true
+      }
+    },
+    "6aa09428-a417-429d-9159-a4e8afd49590": {
+      "type": "icon-bar",
+      "blocks": {
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1": {
+          "type": "column",
+          "settings": {
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "title": "Livraison gratuite",
+            "text": "<p>Livraison gratuite dans toute la France</p>"
+          }
+        },
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2": {
+          "type": "column",
+          "settings": {
+            "icon": "support_agent",
+            "filled_icon": false,
+            "title": "Soutien à la clientèle",
+            "text": "<p>Efficacité et fiabilité garanties.</p>"
+          }
+        },
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4": {
+          "type": "column",
+          "settings": {
+            "icon": "lock",
+            "filled_icon": false,
+            "title": "Achats en toute sécurité",
+            "text": "<p>Environnement 100% sûr</p>"
+          }
+        },
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3": {
+          "type": "column",
+          "settings": {
+            "icon": "stars",
+            "filled_icon": false,
+            "title": "PREMIER ACHAT",
+            "text": "<p>Utilisez le coupon <strong>\"15OFF\"</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1",
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2",
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4",
+        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "d2d3417b-e92f-428c-b221-5bceffb552be": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_frqit4": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Benefit</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_a9Qa8J": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Benefit</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_NAEbjV": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Benefit</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        }
+      },
+      "block_order": [
+        "row_frqit4",
+        "row_a9Qa8J",
+        "row_NAEbjV"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Comparison table",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "<p>Talk about how and why is your brand better than the others.</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "desktop_alignment": "center",
+        "mobile_alignment": "center",
+        "color_scheme": "background-1",
+        "layout": "table_second",
+        "style": "centered",
+        "corner_radius": 20,
+        "number_of_competitors": 1,
+        "us_label": "[shop_name]",
+        "us_label_size": 18,
+        "logo_width": 90,
+        "mobile_logo_width": 60,
+        "others_label": "Others",
+        "others_label_size": 18,
+        "others_logo_width": 90,
+        "others_mobile_logo_width": 60,
+        "others_2_label": "Competitor 2",
+        "others_2_label_size": 18,
+        "others_2_logo_width": 90,
+        "others_2_mobile_logo_width": 60,
+        "others_3_label": "Competitor 3",
+        "others_3_label_size": 18,
+        "others_3_logo_width": 90,
+        "others_3_mobile_logo_width": 60,
+        "checkmark_style": "regular",
+        "checkmark_color": "#ffffff",
+        "checkmark_bg_color": "#53af01",
+        "x_style": "regular",
+        "x_color": "#121212",
+        "x_bg_color": "#dbdbdb",
+        "opposite_icon_colors": "original",
+        "highlighted_color_scheme": "accent-1",
+        "highlighted_separator_opacity": 0,
+        "highlighted_overlay_opacity": 0,
+        "other_cells_color_scheme": "background-1",
+        "regular_separator_opacity": 10,
+        "regular_overlay_opacity": 0,
+        "minimalistic_border_opacity": 16,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_highlighted_background": "#2e2a39",
+        "custom_colors_highlighted_text": "#ffffff",
+        "custom_colors_others_background": "#ffffff",
+        "custom_colors_others_text": "#2e2a39"
+      }
+    },
+    "colors_changer_A4yj9g": {
+      "type": "colors-changer",
+      "settings": {
+        "colors_solid_button_labels": "#fdfbf7",
+        "colors_accent_1": "#000000",
+        "gradient_accent_1": "",
+        "colors_accent_2": "#dd1d1d",
+        "gradient_accent_2": "",
+        "colors_text": "#2e2a39",
+        "colors_outline_button_labels": "#2e2a39",
+        "colors_background_1": "#ffffff",
+        "gradient_background_1": "",
+        "colors_background_2": "#f3f3f3",
+        "gradient_background_2": ""
+      }
+    }
+  },
+  "order": [
+    "cfca4268-6358-426c-98ab-d292aeef11e5",
+    "product_home_",
+    "6aa09428-a417-429d-9159-a4e8afd49590",
+    "d2d3417b-e92f-428c-b221-5bceffb552be",
+    "colors_changer_A4yj9g"
+  ]
 }
