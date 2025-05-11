@@ -383,7 +383,7 @@
               "savings_right_text": "<strong>-[savings]</strong>",
               "savings_alignment": "spaced",
               "savings_text_color": "accent-2",
-              "savings_text_size": 16,
+              "savings_text_size": 13,
               "savings_position": "above",
               "savings_spacing": 10,
               "display_subtotal": true,
@@ -391,7 +391,7 @@
               "subtotal_right_text": "<strong>[subtotal]</strong>",
               "subtotal_alignment": "spaced",
               "subtotal_text_color": "text",
-              "subtotal_text_size": 20,
+              "subtotal_text_size": 13,
               "display_discounts": false,
               "discounts_label": "<strong>Discounts:</strong>",
               "discounts_alignment": "flex-start",
@@ -432,7 +432,7 @@
           "68fdc0a0-cd7c-40b9-97b3-a76eb7917a47"
         ],
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "heading_text": "Cart • [count] items",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
