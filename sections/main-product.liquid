@@ -518,7 +518,7 @@
                                         disabled
                                       {% endunless %}
                                     >
-                                    {{ variant.id }}
+                                    
                                       {{ variant.title }} 
                                       
                                     </option>
@@ -530,12 +530,14 @@
                             </div>
                           {% else %}
                             {%- for option in product.options_with_values -%}
+                              <label for="Option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }} </label>
                               <div
                                 class="product-form__input product-form__input--dropdown"
                               >
                                 <div class="visually-hidden product-form__input__type" data-type="dropdown">&nbsp</div>
                                 <div class="select no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
-                                  <select
+                                  
+                                <select
                                     id="Option-{{ section.id }}-{{ forloop.index0 }}"
                                     class="select__select"
                                     name="options[{{ option.name | escape }}]"
@@ -547,6 +549,7 @@
                                       assign variants_option2_arr = product.variants | map: 'option2'
                                       assign variants_option3_arr = product.variants | map: 'option3'
                                     -%}
+                                    <label>{{ option.name }}</label>
                                     {%- for value in option.values -%}
                                       {%- liquid
                                         assign option_disabled = true
