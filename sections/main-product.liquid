@@ -501,10 +501,13 @@
                           style='--options-count: {{ product.options.size }}'
                         >
                           {% if block.settings.picker_type == 'combined' %}
+                            
                             <div class="product-form__input">
                               <div class="select no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
-                                <select class="sticky-atc__variant-select select__select variant-dropdown">
+                                
+                              <select class="sticky-atc__variant-select select__select variant-dropdown">
                                   {% for variant in product.variants %}
+                                    
                                     <option
                                       value='{{ variant.options | join: ',' | escape }}'
                                       data-options='{{ variant.options | join: ',' }}'
@@ -515,9 +518,12 @@
                                         disabled
                                       {% endunless %}
                                     >
-                                      {{ variant.title }}
+                                    {{ variant.id }}
+                                      {{ variant.title }} 
+                                      
                                     </option>
                                   {% endfor %}
+                                  
                                 </select>
                                 {% render 'icon-caret' %}
                               </div>
