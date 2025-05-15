@@ -1141,6 +1141,7 @@ section-group {
   max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   flex-grow: 1;
   flex-shrink: 0;
+  border: solid 1px black;
 }
 .grid--gapless.grid {
   column-gap: 0;
