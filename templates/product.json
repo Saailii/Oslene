@@ -292,7 +292,7 @@
             "color_scheme": "background-1",
             "star_color": "#ffcc00",
             "stars_label": "(xxxx Reviews)",
-            "picker_type": "combined",
+            "picker_type": "separate",
             "desktop_show_image": true,
             "desktop_show_title": true,
             "desktop_rating_stars": false,
