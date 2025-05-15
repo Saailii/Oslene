@@ -10,11 +10,11 @@
             <div class="product-item__image">
               {% if product.featured_image %}
                 <img
-                  src="{{ product.featured_image | img_url: '300x650', crop: 'center' }}"
+                  src="{{ product.featured_image | img_url: '800x950', crop: 'center' }}"
                   alt="{{ product.title | escape }}"
                   loading="lazy"
-                  width="700"
-                  height="850">
+                  width="800"
+                  height="950">
               {% else %}
                 {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
@@ -76,9 +76,9 @@
   .product-item__image img {
 
   border: 1px solid black;
+  
     object-fit: contain;
     width: 100%; /* Réduction de la largeur à 90% */
-    height: auto; /* La hauteur s'ajuste automatiquement pour garder les proportions */
     max-width: 100%; /* Limite maximale pour la largeur */
     max-height: 100%; /* Limite maximale pour la hauteur */
     
