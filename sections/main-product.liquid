@@ -40,6 +40,9 @@
       display: flex;
       justify-content: center;
     }
+    .sticky-atc__container-center {
+      align-self: center;
+    }
   {%- endstyle -%}
 
   {% if section.settings.image_zoom == 'hover' %}
@@ -454,7 +457,7 @@
                       >
                     </div>
                   {%- endif -%}
-                  <div class='sticky-atc__left'>
+                  <div class='sticky-atc__left sticky-atc__container-center '>
                     <div class='sticky-atc__left__content'>
                       {% if block.settings.mobile_show_title or block.settings.desktop_show_title %}
                         <h4 class='sticky-atc__title{% unless block.settings.mobile_show_title %} mobile-hidden{% endunless %}{% unless block.settings.desktop_show_title %} desktop-hidden{% endunless %}'>
@@ -539,8 +542,9 @@
                               <div
                                 class="product-form__input product-form__input--dropdown"
                               >
-                              <label for="Option-{{ section.id }}-{{ forloop.index0 }}" class="label-option" >{{ option.name }} </label>
+                              
                                 <div class="visually-hidden product-form__input__type" data-type="dropdown">&nbsp</div>
+                                <label for="Option-{{ section.id }}-{{ forloop.index0 }}" class="label-option" >{{ option.name }} </label>
                                 <div class="select no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
                                   
                                 <select
