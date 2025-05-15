@@ -35,6 +35,11 @@
         --slide-inner-percentage-width: {{ section.settings.mobile_slides_inner_width }}%;
       }
     }
+
+    .label-option {
+      display: flex;
+      justify-content: center;
+    }
   {%- endstyle -%}
 
   {% if section.settings.image_zoom == 'hover' %}
@@ -530,10 +535,11 @@
                             </div>
                           {% else %}
                             {%- for option in product.options_with_values -%}
-                              <label for="Option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }} </label>
+                              
                               <div
                                 class="product-form__input product-form__input--dropdown"
                               >
+                              <label for="Option-{{ section.id }}-{{ forloop.index0 }}" class="label-option" >{{ option.name }} </label>
                                 <div class="visually-hidden product-form__input__type" data-type="dropdown">&nbsp</div>
                                 <div class="select no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
                                   
