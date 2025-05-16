@@ -54,7 +54,7 @@
     "action_btn_hover": "center",
     "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 12,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -534,14 +534,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Default": {
