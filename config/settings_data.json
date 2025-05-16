@@ -324,7 +324,7 @@
               "goal": 50,
               "progress_message": "Dépenser [amount]  plus pour bénéficier d'une livraison GRATUITE !",
               "success_message": "Félicitations ! Vous bénéficiez d'une livraison gratuite !",
-              "icon": "local_shipping",
+              "icon": "",
               "icon_filled": false,
               "accent_color": "accent-1",
               "margin_top": 15,
@@ -433,7 +433,7 @@
           "68fdc0a0-cd7c-40b9-97b3-a76eb7917a47"
         ],
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "heading_text": "Cart • [count]",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
