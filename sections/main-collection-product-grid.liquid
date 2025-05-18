@@ -47,6 +47,10 @@
         grid-template-columns: repeat(4, 1fr);
       }
     }
+
+  .full-width {
+    width: 100%;
+  }
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding animate-section animate--hidden">
@@ -177,7 +181,10 @@
                   endif
                 %}
                 {% unless product.tags contains 'collection-hidden' %}
-                  <li class="grid__item animate-item animate-item--child" style="--index: {{ forloop.index0 }};">
+                  <li
+                    class="grid__item animate-item animate-item--child full-width"
+                    style="--index: {{ forloop.index0 }};"
+                  >
                     {% render 'card-product',
                       card_product: product,
                       media_aspect_ratio: section.settings.image_ratio,
