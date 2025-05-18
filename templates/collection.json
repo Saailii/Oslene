@@ -41,7 +41,7 @@
         "columns_desktop": 4,
         "stretch_cards": false,
         "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "badges": "regular",
         "show_vendor": false,
         "show_rating": false,
