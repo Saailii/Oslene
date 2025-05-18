@@ -11240,6 +11240,13 @@ clickable-discount[data-error="false"] + .clickable-discount__error {
     --badge-font-size: 1.3rem;
   }
 }
+
+.border-image {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
 .sticky-atc {
   position: fixed;
   bottom: 0;
