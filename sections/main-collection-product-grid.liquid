@@ -168,8 +168,7 @@
               id="product-grid"
               data-id="{{ section.id }}"
               class="
-                collection-grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.stretch_cards %} grid--stretch{% endif %}
-                grid--{{ section.settings.columns_desktop }}-col-desktop
+                                collection-grid product-grid {% if section.settings.stretch_cards %} grid--stretch{% endif %}
               "
             >
               {%- for product in collection.products -%}
