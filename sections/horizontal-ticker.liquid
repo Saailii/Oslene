@@ -52,6 +52,11 @@
       endif
     endif
   %}
+
+  .border-section {
+    border: solid 1px black;
+  }
+
   @keyframes mobileHorTicker{{ section.id }} {
     to {
       transform: translateX(calc({% unless is_rtl %}-{% endunless %}50% {% if is_rtl %}+{% else %}-{% endif %} {{ section.settings.mobile_spacing | divided_by: 2.0}}px));
