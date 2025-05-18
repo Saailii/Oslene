@@ -320,6 +320,40 @@
             "custom_liquid": "<div id='ss-reviews'></div>"
           }
         },
+        "collapsible_tab_W7kXE3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimension",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/resize_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>Nos maillots de bain taillent petit, si vous hésitez entre deux tailles nous vous conseillons la taille au dessus.</strong></p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_Mtbxjt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Matière",
+            "heading_size": "medium",
+            "icon": "check_box",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/styler_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png",
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>Mode de lavage \"lavage à la main\", ne pas excéder 40°c.</strong></p><p>Tissus : 100% polyester<br/>Crochets : 100% coton</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
         "de158e68-5d0d-4819-a625-e2dabdff87d1": {
           "type": "collapsible_tab",
           "settings": {
@@ -375,6 +409,8 @@
         "payment_badges_xbeynY",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "custom_liquid_BGak3G",
+        "collapsible_tab_W7kXE3",
+        "collapsible_tab_Mtbxjt",
         "de158e68-5d0d-4819-a625-e2dabdff87d1",
         "collapsible_tab_LBad9n",
         "description"
