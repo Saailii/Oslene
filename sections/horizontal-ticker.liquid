@@ -96,7 +96,7 @@
 
 {% if displayed %}
   <div
-    class="horizontal-ticker horizontal-ticker-{{ section.id }} color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding {{ section.settings.visibility }}"
+    class="horizontal-ticker {% if section.settings.line_separator %} border-section {% endif %} horizontal-ticker-{{ section.id }} color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding {{ section.settings.visibility }}"
     style="--mobile-text-size: {{ section.settings.mobile_text_size | divided_by: 10.0 }}rem;--desktop-text-size: {{ section.settings.desktop_text_size | divided_by: 10.0 }}rem;--mobile-image-height: {{ section.settings.mobile_image_height | divided_by: 10.0 }}rem;--desktop-image-height: {{ section.settings.desktop_image_height | divided_by: 10.0 }}rem;"
   >
     <div class="horizontal-ticker__container">
