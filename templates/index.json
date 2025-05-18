@@ -28,10 +28,8 @@
       "type": "product-home",
       "settings": {
         "title": "Nos produits",
-        "font_size__title": 14,
         "collection": "frontpage",
         "products_to_show": 6,
-        "columns_mobile": "2",
         "columns_desktop": "4",
         "show_view_all": false
       }
@@ -247,6 +245,72 @@
         "colors_background_2": "#f3f3f3",
         "gradient_background_2": ""
       }
+    },
+    "image_with_text_Hh4prj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_e8kHKV": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "text_GP7RaN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_aYhYc9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_e8kHKV",
+        "text_GP7RaN",
+        "button_aYhYc9"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/MTR2317_jpg_9e16cbcd-2fde-4acd-a9d9-d1bb5c3d6d8c.webp",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "large",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
     }
   },
   "order": [
@@ -254,6 +318,7 @@
     "product_home_",
     "6aa09428-a417-429d-9159-a4e8afd49590",
     "d2d3417b-e92f-428c-b221-5bceffb552be",
-    "colors_changer_A4yj9g"
+    "colors_changer_A4yj9g",
+    "image_with_text_Hh4prj"
   ]
 }
