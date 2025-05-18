@@ -260,23 +260,14 @@
         "text_GP7RaN": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Tous nos modèles sont confectionnés avec des tissus en polyester de haute qualité et du crochet 100% coton. Entièrement doublés, nos modèles sont conçus pour vous offrir confort et durabilité, saison après saison.</p>",
             "text_style": "body"
-          }
-        },
-        "button_aYhYc9": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_e8kHKV",
-        "text_GP7RaN",
-        "button_aYhYc9"
+        "text_GP7RaN"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -290,10 +281,10 @@
         "section_color_scheme": "background-1",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_media_width": 35,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "mobile_full_media_width": false,
         "mobile_direction": "normal",
         "mobile_image_quanlity": "2",
@@ -316,9 +307,9 @@
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "product_home_",
+    "image_with_text_Hh4prj",
     "6aa09428-a417-429d-9159-a4e8afd49590",
     "d2d3417b-e92f-428c-b221-5bceffb552be",
-    "colors_changer_A4yj9g",
-    "image_with_text_Hh4prj"
+    "colors_changer_A4yj9g"
   ]
 }
